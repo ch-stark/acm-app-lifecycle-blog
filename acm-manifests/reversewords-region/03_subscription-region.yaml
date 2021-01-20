@@ -13,5 +13,5 @@ spec:
   placement:
     placementRef:
       kind: PlacementRule
-      name: eu-region-clusters
+      name: us-eu-region-clusters
 
