@@ -1,7 +1,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: production-clusters
+  name: stage-clusters
   namespace: reverse-words-stage
 spec:
   clusterConditions:
@@ -10,4 +10,4 @@ spec:
   clusterSelector:
     matchExpressions: []
     matchLabels:
-      environment: "prod"
+      environment: "dev"
