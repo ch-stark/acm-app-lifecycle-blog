@@ -9,10 +9,9 @@ spec:
       status: "True"
   clusterSelector:
     matchExpressions:
-    - key: region
+    - key: deploy
       operator: In
       values:
-      - EU
-      - US
+      - all
     matchLabels: {}
   clusterReplicas: 1
