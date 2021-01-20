@@ -11,3 +11,4 @@ spec:
     matchExpressions: []
     matchLabels:
       environment: "dev"
+  clusterReplicas: 1    
