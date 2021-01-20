@@ -14,4 +14,4 @@ spec:
       values:
       - all
     matchLabels: {}
-  clusterReplicas: 3
+  clusterReplicas: 1
