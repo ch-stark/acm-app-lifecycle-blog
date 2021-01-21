@@ -4,11 +4,11 @@ metadata:
   name: reversewords-rolling-subscription
   namespace: reverse-words-rolling
   labels:
-    app: reversewords-dev-app
+    app: reversewords-rolling-app
   annotations:
     apps.open-cluster-management.io/git-path: apps/reversewords/
     apps.open-cluster-management.io/git-branch: stage
-    apps.open-cluster-management.io/rollingupdate-target: target-subscription-name
+    apps.open-cluster-management.io/rollingupdate-target: reversewords-rolling-prod-subscription
     apps.open-cluster-management.io/rollingupdate-maxunavailable: 30
 spec:
   channel: open-cluster-management/acm-app-lifecycle-blog
